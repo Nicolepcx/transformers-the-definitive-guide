@@ -11,6 +11,22 @@ All of the code is organized into folders. Each folder starts with `CH` followed
 The notebooks are then organized as follows: `ch01_attention_mechanism_variations.ipynb`, where `ch01` indicates the chapter
 and `attention_mechanism_variations` what is done in the notebook. 
 
+
+## Repo structure
+
+```
+├── LICENSE
+├── README.md             <- The top-level README for developers using this project.
+├── CH01                  <- Per chapter folder with Jupyter notebooks.
+    ├── [name].ipynb      <- Jupyter notebooks with naming as mentioned above.
+├── CH02                  <- Per chapter folder with Jupyter notebooks.
+...                       <- Same structure for all chapters.
+├── utils                 <- Custom classes and functions and utility functions.
+├── resources             <- Some miscellaneous resources.
+
+```
+
+
 ## Virtual Envrionment
 
 The provided bash script `create_env.sh` automates the process of creating a Python virtual environment using either conda or pipenv, 
@@ -42,17 +58,3 @@ else:
 %cd $new_path
 ```
 __NOTE:__ You need to run the notebooks with a GPU. 
-
-## Project structure
-
-```
-├── LICENSE
-├── README.md             <- The top-level README for developers using this project.
-├── CH01                  <- Per chapter folder with Jupyter notebooks.
-    ├── [name].ipynb      <- Jupyter notebooks with naming as mentioned above.
-├── CH02                  <- Per chapter folder with Jupyter notebooks.
-...                       <- Same structure for all chapters.
-├── utils                 <- Custom classes and functions and utility functions.
-├── resources             <- Some miscellaneous resources.
-
-```
