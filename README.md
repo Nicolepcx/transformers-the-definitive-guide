@@ -1,9 +1,9 @@
 ⭐ If you find this repository helpful, please consider giving it a ⭐ here on GitHub (click the star button in the top right corner) 
 It's a quick way to show support for this openly available code. ⭐
 
-![logo.png](resources%2Flogo.png)
 
-# Transformers - The definitive Guide
+
+# ![logo.png](resources%2Flogo.png) Transformers - The definitive Guide
 This is the corresponding code for the book Transformers - The definitive Guide
 
 ## Instructions and Navigation
