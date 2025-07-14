@@ -5,6 +5,21 @@ It's a quick way to show support for this openly available code. ⭐
 
 # Transformers - The definitive Guide
 This is the corresponding code for the book Transformers - The definitive Guide
+The book can be found [here](https://oreillymedia.pxf.io/ZQOjdW)
+
+## TOC
+- Chapter 1 From First Principles to State-of-the-Art Transformers
+- Chapter 2 Transformers for Time Series
+- Chapter 3 Transformers for Vision Tasks
+- Chapter 4 Transformers for Image Generation
+- Chapter 5 Transformers for Video Generation
+- Chapter 6 Transformers for Audio Tasks 
+- Chapter 7 Reinforcement Learning Transformers 
+- Chapter 8 Transformers for Planing, Reasoning and Coding
+- Chapter 9 AI Agents for Complex Tasks 
+- Chapter 10 Optimizing Transformer for Problem Solving
+- Chapter 11 Deploying transformer models
+- Chapter 12 Where to go next
 
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with `CH` followed by the chapter number. For example, CH01.
