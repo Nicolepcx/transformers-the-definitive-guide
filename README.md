@@ -53,9 +53,93 @@ NOTE: A virtual environment is not necessary for the notebooks in this repositor
 
 ## Running the Notebooks
 
-Every notebook contains buttons so that the notebook can be oppend and run on the chosen cloud service like this:
+Every notebook can be opened and run on Google Colab directly from the links below. Just click the **Open In Colab** badge next to the notebook you want to run.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()   [![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)]() 
+### Chapter 1 — From First Principles to State-of-the-Art Transformers
+| Notebook | Colab |
+|---|---|
+| Attention Mechanism Variations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH01/ch01_attention_mechanism_variations.ipynb) |
+| Embeddings | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH01/ch01_embeddings.ipynb) |
+| Perplexity | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH01/ch01_perplexity.ipynb) |
+
+### Chapter 2 — Transformers for Time Series
+| Notebook | Colab |
+|---|---|
+| Chronos | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH02/ch02_Chronos.ipynb) |
+| PatchTST Hyperparameters (IBM, 10 Days Ahead, 32 Context Window) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH02/ch02_patch_tst_hyperparameter_IBM_10_days_ahead_32_context_window.ipynb) |
+| Time Series Fine-Tuning (PyTorch) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH02/ch02_time_series_finetuning_torch.ipynb) |
+
+### Chapter 3 — Transformers for Vision Tasks
+| Notebook | Colab |
+|---|---|
+| Fine-tune SAM with W&B + Optuna | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH03/ch03_Fine_tune_SAM_with_wandb_optuna.ipynb) |
+| ViT Embeddings & Tokens | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH03/ch03_ViT_embeddings_tokens.ipynb) |
+| Image Classification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH03/ch03_image_classification.ipynb) |
+| Segment Videos with SAM 2 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH03/ch03_segment_videos_with_sam2.ipynb) |
+
+### Chapter 4 — Transformers for Image Generation
+| Notebook | Colab |
+|---|---|
+| DiT | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH04/ch04_Dit.ipynb) |
+| KV Compression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH04/ch04_KV_compression.ipynb) |
+| PixArt-Σ XL Inference | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH04/ch04_inference_PixArt_Sigma_XL.ipynb) |
+| Quantize Text-to-Image Models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH04/ch04_quantize_T2I_models.ipynb) |
+
+### Chapter 5 — Transformers for Video Generation
+| Notebook | Colab |
+|---|---|
+| LTX | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH05/ch05_LTX.ipynb) |
+| Latte | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH05/ch05_latte.ipynb) |
+| Tora | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH05/ch05_tora.ipynb) |
+
+### Chapter 6 — Transformers for Audio Tasks
+| Notebook | Colab |
+|---|---|
+| Kimi-Audio Meeting Transcription | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH06/ch06_Kimi_audio_transcribe_meeting.ipynb) |
+| Qwen2-Audio Audio Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH06/ch06_Qwen2_Audio_different_audio_tasks.ipynb) |
+| SAM Audio | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH06/ch06_SAM_audio.ipynb) |
+| Music Generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH06/ch06_music_generation.ipynb) |
+| Waveforms & Spectrogram Plots | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH06/ch06_wave_and_spectograms_plots.ipynb) |
+
+### Chapter 7 — Reinforcement Learning Transformers
+| Notebook | Colab |
+|---|---|
+| STORM | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH07/ch07_STORM.ipynb) |
+| Decision Transformer | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH07/ch07_decision_transformer.ipynb) |
+| Replay Buffer (Decision Transformer) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH07/ch07_replay_buffer_DT.ipynb) |
+
+### Chapter 8 — Transformers for Planning, Reasoning and Coding
+| Notebook | Colab |
+|---|---|
+| Qwen3 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH08/ch08_Qwen3.ipynb) |
+| Rethink MCTS | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH08/ch08_Rethink_MCTS.ipynb) |
+| TreeQuest | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH08/ch08_TreeQuest.ipynb) |
+| Kimi K2 Instruct | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH08/ch08_kimi_k2_instruct.ipynb) |
+
+### Chapter 9 — AI Agents for Complex Tasks
+| Notebook | Colab |
+|---|---|
+| LangGraph Multi-turn Conversation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH09/09_langgraph_multiturn_conversation.ipynb) |
+| Market Research Team (LangGraph Multi-Agent) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH09/ch09_market_research_team_LangGraph_multi_agent.ipynb) |
+
+### Chapter 10 — Optimizing Transformers for Problem Solving
+| Notebook | Colab |
+|---|---|
+| AdaptThink | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH10/ch10_AdaptThink.ipynb) |
+| ART·E with LangGraph | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH10/ch10_art_e_langgraph.ipynb) |
+| rLLM | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH10/ch10_rLLM.ipynb) |
+
+### Chapter 11 — Deploying Transformer Models
+| Notebook | Colab |
+|---|---|
+| LLM Performance Evaluation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH11/ch11_LLM_performance_evaluation.ipynb) |
+| Advanced LoRA Fine-Tuning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH11/ch11_advanced_LoRA_fine_tuning.ipynb) |
+| LangGraph Code Interpreter | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH11/ch11_langgraph_code_interpreter.ipynb) |
+
+### Chapter 12 — Where to Go Next
+| Notebook | Colab |
+|---|---|
+| SAM 3 Agent | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/transformers-the-definitive-guide/blob/master/CH12/ch12_sam3_agent.ipynb) |
 
 
 Each notebook is connected with this Github repo, meaning by running a notebook, it will automatically clone the repo, so you can easily access all resources outside the notebook.
